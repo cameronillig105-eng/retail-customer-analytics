@@ -1,0 +1,3 @@
+Model,Accuracy,Percision,Recall,F1_score
+Logistic Regression,71.05,0.67,0.66,0.66
+Random Forest,71.43,0.69,0.63,0.66
