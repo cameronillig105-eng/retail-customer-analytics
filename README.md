@@ -52,6 +52,8 @@ feature_importance.png — Random Forest feature-importance visualization.
 
 model_results.csv — Model performance summary.
 
+
+[View the Complete Analysis Notebook](rca.ipynb)
 ## Dataset
 
 Source: UCI Online Retail II
