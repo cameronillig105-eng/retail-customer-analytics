@@ -1,24 +1,24 @@
 # Retail Customer Analytics: RFM Segmentation and Predictive Modeling
 
-Project Overview
+## Project Overview
 
 This project explores customer purchasing behavior using the UCI Online Retail II dataset, which contains over one million retail transaction records from 2009 to 2011.
 
 The objective was to identify valuable customer segments, understand repeat purchasing behavior, and develop machine learning models to predict future purchases.
 
-Tools and Technologies
+## Tools and Technologies
 
-Python (Pandas, NumPy, Matplotlib, Scikit-learn)
+1. Python (Pandas, NumPy, Matplotlib, Scikit-learn)
 
-SQL (SQLite)
+2. SQL (SQLite)
 
-Jupyter Notebook
+3. Jupyter Notebook
 
-Logistic Regression
+4. Logistic Regression
 
-Random Forest
+5. Random Forest
 
-Key Findings
+## Key Findings
 
 Analyzed 779,425 cleaned transaction records representing 5,878 unique customers.
 
@@ -32,7 +32,7 @@ Achieved 71.43% accuracy using Random Forest.
 
 Identified Recency and Monetary value as the strongest Random Forest predictors.
 
-Machine Learning Methodology
+## Machine Learning Methodology
 
 Historical customer transactions were used to calculate Recency, Frequency, and Monetary (RFM) features.
 
@@ -42,7 +42,7 @@ Model performance was evaluated using accuracy, precision, recall, and F1-score.
 
 A preliminary temporal comparison produced approximately 70% accuracy. Because the historical windows overlap, this result should not be considered fully independent chronological validation.
 
-Project Files
+## Project Files
 
 View the Complete Analysis Notebook
 
@@ -52,16 +52,16 @@ feature_importance.png — Random Forest feature-importance visualization.
 
 model_results.csv — Model performance summary.
 
-Dataset
+## Dataset
 
 Source: UCI Online Retail II
 
 The original dataset is not included in this repository due to its size.
 
-Limitations and Future Work
+## Limitations and Future Work
 
 Future improvements include independent chronological validation, additional customer behavior features, hyperparameter tuning, and more detailed evaluation of customer retention predictions.
 
-Conclusion
+## Conclusion
 
 This project demonstrates practical experience with data cleaning, SQL analysis, customer segmentation, feature engineering, and machine learning. It highlights how transactional data can be used to identify customer patterns and inform business decisions.
